@@ -3,19 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--external css link-->
+
+
+    <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Tiidelab Pre Class</title>
+    <style>
+        /* tag name */
+        div{
+            color:purple
+        }
+
+        p{
+            color:black
+        }
+
+
+        /* id selector */
+        #red-paragraph{
+            color:red;
+            font-size: 19px;
+            background-color: black;
+        }
+
+
+        /* class selector */
+        .blue-paragraph{
+            color:blue;
+            font-size: 23px;
+            background: pink;
+        }
+    </style>
 </head>
 
-<h1>Hello World</h1>
-<h2>Hello World</h2>
-<h3>Hello World</h3>
-<h4>Hello World</h4>
-<h5>Hello World</h5>
-<h6>Hello World</h6>
+<!--
 
-<div>Allah (SWT) says one night of laylatu Qadr is better than a thousand months.</div>
-<div>Allah (SWT) says one night of laylatu Qadr is better than a thousand months.</div>
+inline css
+internal css
+external css
+
+color
+font-size
+font-weight
+background
+font-family
+font-style
+
+px
+em
+rem
+-->
+
+<h1 style="color:red; background: blue;">Hello World</h1>
+<h2 style="color:pink; font-size: 40px;">Hello World</h2>
+<h3 style="font-weight: 900;">Hello World</h3>
+<h4 style="background-color: yellow;">Hello World</h4>
+<h5 style="font-family: cursive;">Hello World</h5>
+<h6 style="font-style: italic;">Hello World</h6>
+
+<div style="font-family: cursive;">Allah (SWT) says one night of laylatu Qadr is better than a thousand months.</div>
+<div style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Allah (SWT) says one night of laylatu Qadr is better than a thousand months.</div>
 <div>Allah (SWT) says one night of laylatu Qadr is better than a thousand months.</div>
 
 <head>Tiidelab Rocks</head>
@@ -30,8 +78,8 @@
     <li>e</li>
 </nav>
 
-<p>By reminding us all that the final destination for everyone on earth is back to Allah, the Quran emphasizes that our entire being and meaning of life revolves around this very fact: Allah has perfected us in our own unique form, and we will ultimately be returned to our Creator. By remembering that our final goal and destination should be about the return to Allah, this verse of the Quran serves as a timely source of inspiration whenever you feel lost in life.</p>
-<p>By reminding us all that the final destination for everyone on earth is back to Allah, the Quran emphasizes that our entire being and meaning of life revolves around this very fact: Allah has perfected us in our own unique form, and we will ultimately be returned to our Creator. By remembering that our final goal and destination should be about the return to Allah, this verse of the Quran serves as a timely source of inspiration whenever you feel lost in life.</p>
+<p id="red-paragraph">By reminding us all that the final destination for everyone on earth is back to Allah, the Quran emphasizes that our entire being and meaning of life revolves around this very fact: Allah has perfected us in our own unique form, and we will ultimately be returned to our Creator. By remembering that our final goal and destination should be about the return to Allah, this verse of the Quran serves as a timely source of inspiration whenever you feel lost in life.</p>
+<p class="blue-paragraph">By reminding us all that the final destination for everyone on earth is back to Allah, the Quran emphasizes that our entire being and meaning of life revolves around this very fact: Allah has perfected us in our own unique form, and we will ultimately be returned to our Creator. By remembering that our final goal and destination should be about the return to Allah, this verse of the Quran serves as a timely source of inspiration whenever you feel lost in life.</p>
 <p>By reminding us all that the final destination for everyone on earth is back to Allah, the Quran emphasizes that our entire being and meaning of life revolves around this very fact: Allah has perfected us in our own unique form, and we will ultimately be returned to our Creator. By remembering that our final goal and destination should be about the return to Allah, this verse of the Quran serves as a timely source of inspiration whenever you feel lost in life.</p>
 
 <span>span text here</span>
@@ -79,7 +127,7 @@
     <div></div>
 </main>
 
-<ol>
+<ol class="red-group">
     <li>Bread</li>
     <li>Rice</li>
     <li>Tea</li>
@@ -88,7 +136,7 @@
     <li>Bread</li>
 </ol>
 
-<ul>
+<ul class="yellow-group">
     <li>Bread</li>
     <li>Rice</li>
     <li>Tea</li>
